@@ -1,4 +1,4 @@
-package net.muluk.combined_furnace.mixin;
+package net.muluk.combinedfurnace.mixin;
 
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
 import org.spongepowered.asm.mixin.Mixin;

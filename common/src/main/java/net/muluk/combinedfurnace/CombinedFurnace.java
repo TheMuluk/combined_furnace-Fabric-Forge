@@ -1,9 +1,9 @@
-package net.muluk.combined_furnace;
+package net.muluk.combinedfurnace;
 
-import net.muluk.combined_furnace.registry.BlockEntitiesRegistry;
-import net.muluk.combined_furnace.registry.BlockRegistry;
-import net.muluk.combined_furnace.registry.ItemRegistry;
-import net.muluk.combined_furnace.registry.MenuTypesRegistry;
+import net.muluk.combinedfurnace.registry.BlockEntitiesRegistry;
+import net.muluk.combinedfurnace.registry.BlockRegistry;
+import net.muluk.combinedfurnace.registry.ItemRegistry;
+import net.muluk.combinedfurnace.registry.MenuTypesRegistry;
 
 public final class CombinedFurnace {
     public static final String MOD_ID = "combined_furnace";

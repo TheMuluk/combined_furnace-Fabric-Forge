@@ -1,4 +1,4 @@
-package net.muluk.combined_furnace.block.entity;
+package net.muluk.combinedfurnace.block.entity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -10,9 +10,9 @@ import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import net.muluk.combined_furnace.mixin.AbstractFurnaceBlockEntityAccessor;
-import net.muluk.combined_furnace.registry.BlockEntitiesRegistry;
-import net.muluk.combined_furnace.screen.custom.CombinedFurnaceMenu;
+import net.muluk.combinedfurnace.mixin.AbstractFurnaceBlockEntityAccessor;
+import net.muluk.combinedfurnace.registry.BlockEntitiesRegistry;
+import net.muluk.combinedfurnace.screen.custom.CombinedFurnaceMenu;
 import org.jetbrains.annotations.NotNull;
 
 public class CombinedFurnaceBlockEntity extends AbstractFurnaceBlockEntity {
@@ -42,7 +42,7 @@ public class CombinedFurnaceBlockEntity extends AbstractFurnaceBlockEntity {
 
         return this.level.getRecipeManager()
                 .getRecipeFor(RecipeType.SMELTING, this, this.level)
-                .map(recipe -> ((AbstractCookingRecipe) recipe).getCookingTime())
+                .map(AbstractCookingRecipe::getCookingTime)
                 .orElse(200);
     }
 

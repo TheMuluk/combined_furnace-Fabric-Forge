@@ -1,7 +1,7 @@
-package net.muluk.combined_furnace.fabric.client;
+package net.muluk.combinedfurnace.fabric.client;
 
 import net.fabricmc.api.ClientModInitializer;
-import net.muluk.combined_furnace.client.CombinedFurnaceClient;
+import net.muluk.combinedfurnace.client.CombinedFurnaceClient;
 
 public final class CombinedFurnaceFabricClient implements ClientModInitializer {
     @Override

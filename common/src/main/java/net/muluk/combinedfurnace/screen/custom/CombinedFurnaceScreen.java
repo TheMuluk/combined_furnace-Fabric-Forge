@@ -1,11 +1,11 @@
-package net.muluk.combined_furnace.screen.custom;
+package net.muluk.combinedfurnace.screen.custom;
 
 import net.minecraft.client.gui.screens.inventory.AbstractFurnaceScreen;
 import net.minecraft.client.gui.screens.recipebook.SmeltingRecipeBookComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
-import net.muluk.combined_furnace.CombinedFurnace;
+import net.muluk.combinedfurnace.CombinedFurnace;
 
 public class CombinedFurnaceScreen extends AbstractFurnaceScreen<CombinedFurnaceMenu> {
 

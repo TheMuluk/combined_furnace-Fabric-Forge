@@ -1,8 +1,8 @@
-package net.muluk.combined_furnace.fabric;
+package net.muluk.combinedfurnace.fabric;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.muluk.combined_furnace.CombinedFurnace;
+import net.muluk.combinedfurnace.CombinedFurnace;
 
 public final class CombinedFurnaceFabric implements ModInitializer {
     @Override

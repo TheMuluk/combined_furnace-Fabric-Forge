@@ -1,8 +1,8 @@
-package net.muluk.combined_furnace.client;
+package net.muluk.combinedfurnace.client;
 
 import dev.architectury.registry.menu.MenuRegistry;
-import net.muluk.combined_furnace.registry.MenuTypesRegistry;
-import net.muluk.combined_furnace.screen.custom.CombinedFurnaceScreen;
+import net.muluk.combinedfurnace.registry.MenuTypesRegistry;
+import net.muluk.combinedfurnace.screen.custom.CombinedFurnaceScreen;
 
 public class CombinedFurnaceClient {
 

@@ -1,4 +1,4 @@
-package net.muluk.combined_furnace.registry;
+package net.muluk.combinedfurnace.registry;
 
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
@@ -7,8 +7,8 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.inventory.MenuType;
 
-import net.muluk.combined_furnace.CombinedFurnace;
-import net.muluk.combined_furnace.screen.custom.CombinedFurnaceMenu;
+import net.muluk.combinedfurnace.CombinedFurnace;
+import net.muluk.combinedfurnace.screen.custom.CombinedFurnaceMenu;
 
 public class MenuTypesRegistry {
 

@@ -1,11 +1,11 @@
-package net.muluk.combined_furnace.registry;
+package net.muluk.combinedfurnace.registry;
 
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
-import net.muluk.combined_furnace.CombinedFurnace;
-import net.muluk.combined_furnace.block.entity.CombinedFurnaceBlockEntity;
+import net.muluk.combinedfurnace.CombinedFurnace;
+import net.muluk.combinedfurnace.block.entity.CombinedFurnaceBlockEntity;
 
 public class BlockEntitiesRegistry {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =

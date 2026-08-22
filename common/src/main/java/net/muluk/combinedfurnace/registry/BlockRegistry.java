@@ -1,4 +1,4 @@
-package net.muluk.combined_furnace.registry;
+package net.muluk.combinedfurnace.registry;
 
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
@@ -8,8 +8,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.muluk.combined_furnace.CombinedFurnace;
-import net.muluk.combined_furnace.block.custom.CombinedFurnaceBlock;
+import net.muluk.combinedfurnace.CombinedFurnace;
+import net.muluk.combinedfurnace.block.custom.CombinedFurnaceBlock;
 
 import java.util.function.Supplier;
 

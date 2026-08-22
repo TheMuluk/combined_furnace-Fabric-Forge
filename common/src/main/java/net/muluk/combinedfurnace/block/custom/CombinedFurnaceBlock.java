@@ -1,4 +1,4 @@
-package net.muluk.combined_furnace.block.custom;
+package net.muluk.combinedfurnace.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -14,8 +14,8 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityTicker;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
-import net.muluk.combined_furnace.block.entity.CombinedFurnaceBlockEntity;
-import net.muluk.combined_furnace.registry.BlockEntitiesRegistry;
+import net.muluk.combinedfurnace.block.entity.CombinedFurnaceBlockEntity;
+import net.muluk.combinedfurnace.registry.BlockEntitiesRegistry;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -53,23 +53,23 @@ public class CombinedFurnaceBlock extends AbstractFurnaceBlock {
 
     @Override
     public void animateTick(BlockState blockState, Level level, BlockPos blockPos, RandomSource randomSource) {
-        if ((Boolean)blockState.getValue(LIT)) {
+        if (blockState.getValue(LIT)) {
             double d = (double)blockPos.getX() + (double)0.5F;
-            double e = (double)blockPos.getY();
+            double e = blockPos.getY();
             double f = (double)blockPos.getZ() + (double)0.5F;
             if (randomSource.nextDouble() < 0.1) {
                 level.playLocalSound(d, e, f, SoundEvents.FURNACE_FIRE_CRACKLE, SoundSource.BLOCKS, 1.0F, 1.0F, false);
             }
 
-            Direction direction = (Direction)blockState.getValue(FACING);
+            Direction direction = blockState.getValue(FACING);
             Direction.Axis axis = direction.getAxis();
             double g = 0.52;
             double h = randomSource.nextDouble() * 0.6 - 0.3;
             double i = axis == Direction.Axis.X ? (double)direction.getStepX() * 0.52 : h;
             double j = randomSource.nextDouble() * (double)6.0F / (double)16.0F;
             double k = axis == Direction.Axis.Z ? (double)direction.getStepZ() * 0.52 : h;
-            level.addParticle(ParticleTypes.SMOKE, d + i, e + j, f + k, (double)0.0F, (double)0.0F, (double)0.0F);
-            level.addParticle(ParticleTypes.SOUL_FIRE_FLAME, d + i, e + j, f + k, (double)0.0F, (double)0.0F, (double)0.0F);
+            level.addParticle(ParticleTypes.SMOKE, d + i, e + j, f + k, 0.0F, 0.0F, 0.0F);
+            level.addParticle(ParticleTypes.SOUL_FIRE_FLAME, d + i, e + j, f + k, 0.0F, 0.0F, 0.0F);
         }
     }
 }
