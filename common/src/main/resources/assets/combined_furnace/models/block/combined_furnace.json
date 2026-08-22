@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "combined_furnace:block/combined_furnace_front",
+    "side": "combined_furnace:block/combined_furnace_side",
+    "top": "combined_furnace:block/combined_furnace_top",
+    "bottom": "combined_furnace:block/combined_furnace_bottom"
+  }
+}

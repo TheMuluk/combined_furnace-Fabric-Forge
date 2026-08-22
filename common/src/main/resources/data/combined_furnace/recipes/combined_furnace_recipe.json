@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building_blocks",
+  "group": "furnaces",
+  "key": {
+    "n": {
+      "item": "minecraft:nether_bricks"
+    },
+    "b": {
+      "item": "minecraft:blast_furnace"
+    },
+    "s": {
+      "item": "minecraft:smoker"
+    },
+    "f": {
+      "item": "minecraft:furnace"
+    },
+    "g": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "sfb",
+    "nnn"
+  ],
+  "result": {
+    "item": "combined_furnace:combined_furnace"
+  },
+  "show_notification": true
+}

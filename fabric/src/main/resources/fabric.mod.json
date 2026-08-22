@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "combined_furnace",
+  "version": "${version}",
+  "name": "Combined Furnace",
+  "description": "Combined Furnace combines all three vanilla furnaces into one powerful furnace. It smelts all items at Smoker and Blast Furnace speed",
+  "authors": [
+    "Muluk"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT License",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.muluk.combined_furnace.fabric.CombinedFurnaceFabric"
+    ],
+    "client": [
+      "net.muluk.combined_furnace.fabric.client.CombinedFurnaceFabricClient"
+    ]
+  },
+  "mixins": [
+    "combined_furnace.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

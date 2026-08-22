@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT License"
+
+[[mods]]
+modId = "combined_furnace"
+version = "${version}"
+displayName = "Combined Furnace"
+authors = "Muluk"
+description = '''
+Combined Furnace combines all three vanilla furnaces into one powerful furnace. It smelts all items at Smoker and Blast Furnace speed
+'''
+#logoFile = ""
+
+[[dependencies.combined_furnace]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.combined_furnace]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.combined_furnace]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
