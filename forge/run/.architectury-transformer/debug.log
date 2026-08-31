@@ -4,7 +4,7 @@
 [Architectury Transformer DEBUG] Provided 103 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\fabric-loom\1.20.1\forge\1.20.1-47.4.22\client-extra.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
-[Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.19.3\354dfaa02d0552e11867f85dff7cdbfaf813ba3e\fabric-loader-0.19.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.19.5\ff9e65cffca4a67f31523e1807fe0855940fcbfa\fabric-loader-0.19.5.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\26.0.2\c7ce3cdeda3d18909368dfe5977332dfad326c6d\annotations-26.0.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.4.22\90407eed9ce435424cd98544f47f44b00d9c9c09\fmlearlydisplay-1.20.1-47.4.22.jar
@@ -105,142 +105,152 @@
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\c7350a71920f3ae9142945e25fed4846cce53374\netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\476409d6255001ca53a55f65b01c13822f8dc93a\netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\.gradle\loom-cache\remapped_mods\remapped\dev\architectury\architectury-forge-393ec4c8\9.2.14\architectury-forge-393ec4c8-9.2.14.jar
-[Architectury Transformer] Read classpath in 1.336 s
+[Architectury Transformer] Read classpath in 1.284 s
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar to C:\Users\malek\AppData\Local\Temp\12177193679999336042.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@4df828d7
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@b59d31
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@62fdb4a6
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@11e21d0e
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@1dd02175
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@31206beb
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@3e77a1ed
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@3ffcd140
-[Architectury Transformer DEBUG] Transforming from C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar to C:\Users\malek\AppData\Local\Temp\12177193679999336042.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar to C:\Users\malek\AppData\Local\Temp\15174917688757897779.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@1dd02175
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@31206beb
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@3e77a1ed
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@3ffcd140
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@23bb8443
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@1176dcec
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@120d6fe6
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@4ba2ca36
+[Architectury Transformer DEBUG] Transforming from C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar to C:\Users\malek\AppData\Local\Temp\15174917688757897779.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/CombinedFurnace with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/block/custom/CombinedFurnaceBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/block/entity/CombinedFurnaceBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/client/CombinedFurnaceClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/mixin/AbstractFurnaceBlockEntityAccessor with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/BlockRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/MenuTypesRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/BlockEntitiesRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/ItemRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/screen/custom/CombinedFurnaceMenu with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/screen/custom/CombinedFurnaceScreen with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/CombinedFurnace with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/block/custom/CombinedFurnaceBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/block/entity/CombinedFurnaceBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/client/CombinedFurnaceClient with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/mixin/AbstractFurnaceBlockEntityAccessor with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/BlockRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/BlockEntitiesRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/ItemRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/MenuTypesRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/ModCreativeTabs with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/screen/custom/CombinedFurnaceScreen with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/screen/custom/CombinedFurnaceMenu with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /combined_furnace.mixins.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /combined_furnace.mixins.json is a mixin config.
 [Architectury Transformer DEBUG] Found mixin config(s): combined_furnace.mixins.json
 [Architectury Transformer DEBUG] Appended Launch Argument: [--mixin.config, combined_furnace.mixins.json]
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\malek\AppData\Local\Temp\12177193679999336042.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\malek\AppData\Local\Temp\15174917688757897779.jar
 [Architectury Transformer] Listening at C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\malek\AppData\Local\Temp\12177193679999336042.jar] contains packages: net.muluk.combinedfurnace.client, net.muluk.combinedfurnace.block.custom, net.muluk.combinedfurnace, net.muluk.combinedfurnace.screen.custom, net.muluk.combinedfurnace.mixin, net.muluk.combinedfurnace.registry, net.muluk.combinedfurnace.block.entity
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\malek\AppData\Local\Temp\15174917688757897779.jar] contains packages: net.muluk.combinedfurnace.block.custom, net.muluk.combinedfurnace.mixin, net.muluk.combinedfurnace.screen.custom, net.muluk.combinedfurnace.registry, net.muluk.combinedfurnace.client, net.muluk.combinedfurnace, net.muluk.combinedfurnace.block.entity
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\forge\build\classes\java\main] contains packages: net.muluk.combinedfurnace.forge, net.muluk.combinedfurnace.forge.client
 [Architectury Transformer DEBUG] Classpath entry [C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\forge\build\resources\main] contains packages: 
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/mixin/AbstractFurnaceBlockEntityAccessor.class to net/muluk/combined_furnace/mixin/AbstractFurnaceBlockEntityAccessor.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/mixin/AbstractFurnaceBlockEntityAccessor.class to net/muluk/combinedfurnace/mixin/AbstractFurnaceBlockEntityAccessor.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/mixin/AbstractFurnaceBlockEntityAccessor with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/mixin/AbstractFurnaceBlockEntityAccessor in 71.27 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/CombinedFurnace.class to net/muluk/combined_furnace/CombinedFurnace.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/mixin/AbstractFurnaceBlockEntityAccessor with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/mixin/AbstractFurnaceBlockEntityAccessor in 82.26 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/CombinedFurnace.class to net/muluk/combinedfurnace/CombinedFurnace.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/CombinedFurnace with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/CombinedFurnace in 32.40 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/registry/BlockRegistry.class to net/muluk/combined_furnace/registry/BlockRegistry.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/CombinedFurnace with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/CombinedFurnace in 17.41 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/registry/BlockRegistry.class to net/muluk/combinedfurnace/registry/BlockRegistry.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/BlockRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/registry/BlockRegistry in 21.77 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/block/custom/CombinedFurnaceBlock.class to net/muluk/combined_furnace/block/custom/CombinedFurnaceBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/BlockRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/registry/BlockRegistry in 20.53 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/block/custom/CombinedFurnaceBlock.class to net/muluk/combinedfurnace/block/custom/CombinedFurnaceBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/block/custom/CombinedFurnaceBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/block/custom/CombinedFurnaceBlock in 19.22 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/registry/ItemRegistry.class to net/muluk/combined_furnace/registry/ItemRegistry.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/block/custom/CombinedFurnaceBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/block/custom/CombinedFurnaceBlock in 21.49 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/registry/ItemRegistry.class to net/muluk/combinedfurnace/registry/ItemRegistry.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/ItemRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/registry/ItemRegistry in 20.78 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/registry/BlockEntitiesRegistry.class to net/muluk/combined_furnace/registry/BlockEntitiesRegistry.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/ItemRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/registry/ItemRegistry in 15.22 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/registry/BlockEntitiesRegistry.class to net/muluk/combinedfurnace/registry/BlockEntitiesRegistry.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/BlockEntitiesRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/registry/BlockEntitiesRegistry in 15.22 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/registry/MenuTypesRegistry.class to net/muluk/combined_furnace/registry/MenuTypesRegistry.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/BlockEntitiesRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/registry/BlockEntitiesRegistry in 11.27 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/registry/MenuTypesRegistry.class to net/muluk/combinedfurnace/registry/MenuTypesRegistry.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/MenuTypesRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/registry/MenuTypesRegistry in 12.76 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/block/entity/CombinedFurnaceBlockEntity.class to net/muluk/combined_furnace/block/entity/CombinedFurnaceBlockEntity.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/MenuTypesRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/registry/MenuTypesRegistry in 12.13 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/registry/ModCreativeTabs.class to net/muluk/combinedfurnace/registry/ModCreativeTabs.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/block/entity/CombinedFurnaceBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/block/entity/CombinedFurnaceBlockEntity in 9.930 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/screen/custom/CombinedFurnaceMenu.class to net/muluk/combined_furnace/screen/custom/CombinedFurnaceMenu.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/ModCreativeTabs with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/registry/ModCreativeTabs in 12.40 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/block/entity/CombinedFurnaceBlockEntity.class to net/muluk/combinedfurnace/block/entity/CombinedFurnaceBlockEntity.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/screen/custom/CombinedFurnaceMenu with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/screen/custom/CombinedFurnaceMenu in 9.651 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/client/CombinedFurnaceClient.class to net/muluk/combined_furnace/client/CombinedFurnaceClient.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/block/entity/CombinedFurnaceBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/block/entity/CombinedFurnaceBlockEntity in 11.38 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/screen/custom/CombinedFurnaceMenu.class to net/muluk/combinedfurnace/screen/custom/CombinedFurnaceMenu.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/client/CombinedFurnaceClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/client/CombinedFurnaceClient in 37.34 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/screen/custom/CombinedFurnaceScreen.class to net/muluk/combined_furnace/screen/custom/CombinedFurnaceScreen.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/screen/custom/CombinedFurnaceMenu with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/screen/custom/CombinedFurnaceMenu in 9.653 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/client/CombinedFurnaceClient.class to net/muluk/combinedfurnace/client/CombinedFurnaceClient.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x000001423508faa8@16aa0a0a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/screen/custom/CombinedFurnaceScreen with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/screen/custom/CombinedFurnaceScreen in 18.60 ms
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/client/CombinedFurnaceClient with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/client/CombinedFurnaceClient in 34.53 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/screen/custom/CombinedFurnaceScreen.class to net/muluk/combinedfurnace/screen/custom/CombinedFurnaceScreen.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda/0x00000201a308faa8@161b062a
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/screen/custom/CombinedFurnaceScreen with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/screen/custom/CombinedFurnaceScreen in 19.21 ms

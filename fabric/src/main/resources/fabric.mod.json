@@ -15,10 +15,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.muluk.combined_furnace.fabric.CombinedFurnaceFabric"
+      "net.muluk.combinedfurnace.fabric.CombinedFurnaceFabric"
     ],
     "client": [
-      "net.muluk.combined_furnace.fabric.client.CombinedFurnaceFabricClient"
+      "net.muluk.combinedfurnace.fabric.client.CombinedFurnaceFabricClient"
     ]
   },
   "mixins": [

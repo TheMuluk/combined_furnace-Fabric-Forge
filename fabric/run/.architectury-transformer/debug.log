@@ -3,7 +3,7 @@
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Provided 112 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
-[Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.19.3\354dfaa02d0552e11867f85dff7cdbfaf813ba3e\fabric-loader-0.19.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.19.5\ff9e65cffca4a67f31523e1807fe0855940fcbfa\fabric-loader-0.19.5.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\26.0.2\c7ce3cdeda3d18909368dfe5977332dfad326c6d\annotations-26.0.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.10.1\ada2141c0cc52ee8f5c48cd5fa4ce0e794f22236\asm-9.10.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.10.1\8d49f14d51f632cb1d87c88d1ceaf50db0d8af1b\asm-analysis-9.10.1.jar
@@ -114,75 +114,80 @@
 [Architectury Transformer DEBUG]  - C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-resource-loader-v0-525a49f8\0.11.12+fb82e9d777\fabric-resource-loader-v0-525a49f8-0.11.12+fb82e9d777.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-sound-api-v1-525a49f8\1.0.14+1802ada577\fabric-sound-api-v1-525a49f8-1.0.14+1802ada577.jar
 [Architectury Transformer DEBUG]  - C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1-525a49f8\4.3.2+1802ada577\fabric-transitive-access-wideners-v1-525a49f8-4.3.2+1802ada577.jar
-[Architectury Transformer] Read classpath in 1.273 s
+[Architectury Transformer] Read classpath in 1.188 s
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar to C:\Users\malek\AppData\Local\Temp\9355084335962590668.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@150c158
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@4524411f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@401e7803
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@10dba097
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@1786f9d5
-[Architectury Transformer DEBUG] Transforming from C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar to C:\Users\malek\AppData\Local\Temp\9355084335962590668.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar to C:\Users\malek\AppData\Local\Temp\5486595786330069049.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@2eda0940
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@3578436e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@706a04ae
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@6eceb130
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@10a035a0
+[Architectury Transformer DEBUG] Transforming from C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar to C:\Users\malek\AppData\Local\Temp\5486595786330069049.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/CombinedFurnace with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/block/custom/CombinedFurnaceBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/block/entity/CombinedFurnaceBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/client/CombinedFurnaceClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/mixin/AbstractFurnaceBlockEntityAccessor with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/BlockEntitiesRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/BlockRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/ItemRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/MenuTypesRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/screen/custom/CombinedFurnaceMenu with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/screen/custom/CombinedFurnaceScreen with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/CombinedFurnace with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/block/custom/CombinedFurnaceBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/block/entity/CombinedFurnaceBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/client/CombinedFurnaceClient with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/mixin/AbstractFurnaceBlockEntityAccessor with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/BlockEntitiesRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/BlockRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/ItemRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/MenuTypesRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/ModCreativeTabs with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/screen/custom/CombinedFurnaceMenu with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/screen/custom/CombinedFurnaceScreen with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /combined_furnace.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\malek\AppData\Local\Temp\9355084335962590668.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\malek\AppData\Local\Temp\5486595786330069049.jar
 [Architectury Transformer] Listening at C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\malek\AppData\Local\Temp\9355084335962590668.jar] contains packages: net.muluk.combinedfurnace.client, net.muluk.combinedfurnace.block.custom, net.muluk.combinedfurnace, net.muluk.combinedfurnace.screen.custom, net.muluk.combinedfurnace.mixin, net.muluk.combinedfurnace.registry, net.muluk.combinedfurnace.block.entity
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\malek\AppData\Local\Temp\5486595786330069049.jar] contains packages: net.muluk.combinedfurnace.block.custom, net.muluk.combinedfurnace.mixin, net.muluk.combinedfurnace.screen.custom, net.muluk.combinedfurnace.registry, net.muluk.combinedfurnace.client, net.muluk.combinedfurnace, net.muluk.combinedfurnace.block.entity
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\common\build\devlibs\combined_furnace-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\fabric\build\classes\java\main] contains packages: net.muluk.combinedfurnace.fabric.client, net.muluk.combinedfurnace.fabric
 [Architectury Transformer DEBUG] Classpath entry [C:\Users\malek\Documents\Minecraft Modding\combined_furnace-1.20.1-Fabric-Forge\fabric\build\resources\main] contains packages: 
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/mixin/AbstractFurnaceBlockEntityAccessor.class to net/muluk/combined_furnace/mixin/AbstractFurnaceBlockEntityAccessor.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/mixin/AbstractFurnaceBlockEntityAccessor.class to net/muluk/combinedfurnace/mixin/AbstractFurnaceBlockEntityAccessor.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/mixin/AbstractFurnaceBlockEntityAccessor with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/mixin/AbstractFurnaceBlockEntityAccessor in 1.604 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/CombinedFurnace.class to net/muluk/combined_furnace/CombinedFurnace.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/mixin/AbstractFurnaceBlockEntityAccessor with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/mixin/AbstractFurnaceBlockEntityAccessor in 1.139 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/CombinedFurnace.class to net/muluk/combinedfurnace/CombinedFurnace.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/CombinedFurnace with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/CombinedFurnace in 571.7 μs
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/registry/BlockRegistry.class to net/muluk/combined_furnace/registry/BlockRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/CombinedFurnace with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/CombinedFurnace in 650.5 μs
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/registry/BlockRegistry.class to net/muluk/combinedfurnace/registry/BlockRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/BlockRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/registry/BlockRegistry in 1.019 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/block/custom/CombinedFurnaceBlock.class to net/muluk/combined_furnace/block/custom/CombinedFurnaceBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/BlockRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/registry/BlockRegistry in 1.013 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/block/custom/CombinedFurnaceBlock.class to net/muluk/combinedfurnace/block/custom/CombinedFurnaceBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/block/custom/CombinedFurnaceBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/block/custom/CombinedFurnaceBlock in 1.644 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/registry/ItemRegistry.class to net/muluk/combined_furnace/registry/ItemRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/block/custom/CombinedFurnaceBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/block/custom/CombinedFurnaceBlock in 1.741 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/registry/ItemRegistry.class to net/muluk/combinedfurnace/registry/ItemRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/ItemRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/registry/ItemRegistry in 632.7 μs
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/block/entity/CombinedFurnaceBlockEntity.class to net/muluk/combined_furnace/block/entity/CombinedFurnaceBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/ItemRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/registry/ItemRegistry in 817.8 μs
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/block/entity/CombinedFurnaceBlockEntity.class to net/muluk/combinedfurnace/block/entity/CombinedFurnaceBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/block/entity/CombinedFurnaceBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/block/entity/CombinedFurnaceBlockEntity in 1.470 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/registry/BlockEntitiesRegistry.class to net/muluk/combined_furnace/registry/BlockEntitiesRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/block/entity/CombinedFurnaceBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/block/entity/CombinedFurnaceBlockEntity in 1.409 ms
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/registry/BlockEntitiesRegistry.class to net/muluk/combinedfurnace/registry/BlockEntitiesRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/BlockEntitiesRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/registry/BlockEntitiesRegistry in 1.069 ms
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/screen/custom/CombinedFurnaceMenu.class to net/muluk/combined_furnace/screen/custom/CombinedFurnaceMenu.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/BlockEntitiesRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/registry/BlockEntitiesRegistry in 936.4 μs
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/screen/custom/CombinedFurnaceMenu.class to net/muluk/combinedfurnace/screen/custom/CombinedFurnaceMenu.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/screen/custom/CombinedFurnaceMenu with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/screen/custom/CombinedFurnaceMenu in 567.3 μs
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/registry/MenuTypesRegistry.class to net/muluk/combined_furnace/registry/MenuTypesRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/screen/custom/CombinedFurnaceMenu with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/screen/custom/CombinedFurnaceMenu in 643.2 μs
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/registry/MenuTypesRegistry.class to net/muluk/combinedfurnace/registry/MenuTypesRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/registry/MenuTypesRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/registry/MenuTypesRegistry in 624.8 μs
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/client/CombinedFurnaceClient.class to net/muluk/combined_furnace/client/CombinedFurnaceClient.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/MenuTypesRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/registry/MenuTypesRegistry in 684.1 μs
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/registry/ModCreativeTabs.class to net/muluk/combinedfurnace/registry/ModCreativeTabs.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/client/CombinedFurnaceClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/client/CombinedFurnaceClient in 651.5 μs
-[Architectury Transformer DEBUG] Transforming from net/muluk/combined_furnace/screen/custom/CombinedFurnaceScreen.class to net/muluk/combined_furnace/screen/custom/CombinedFurnaceScreen.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/registry/ModCreativeTabs with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/registry/ModCreativeTabs in 449.5 μs
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/client/CombinedFurnaceClient.class to net/muluk/combinedfurnace/client/CombinedFurnaceClient.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/muluk/combined_furnace/screen/custom/CombinedFurnaceScreen with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/muluk/combined_furnace/screen/custom/CombinedFurnaceScreen in 427.4 μs
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/client/CombinedFurnaceClient with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/client/CombinedFurnaceClient in 562.5 μs
+[Architectury Transformer DEBUG] Transforming from net/muluk/combinedfurnace/screen/custom/CombinedFurnaceScreen.class to net/muluk/combinedfurnace/screen/custom/CombinedFurnaceScreen.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/muluk/combinedfurnace/screen/custom/CombinedFurnaceScreen with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/muluk/combinedfurnace/screen/custom/CombinedFurnaceScreen in 443.8 μs

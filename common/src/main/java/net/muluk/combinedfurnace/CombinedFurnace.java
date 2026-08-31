@@ -1,9 +1,6 @@
 package net.muluk.combinedfurnace;
 
-import net.muluk.combinedfurnace.registry.BlockEntitiesRegistry;
-import net.muluk.combinedfurnace.registry.BlockRegistry;
-import net.muluk.combinedfurnace.registry.ItemRegistry;
-import net.muluk.combinedfurnace.registry.MenuTypesRegistry;
+import net.muluk.combinedfurnace.registry.*;
 
 public final class CombinedFurnace {
     public static final String MOD_ID = "combined_furnace";
@@ -13,5 +10,6 @@ public final class CombinedFurnace {
         BlockEntitiesRegistry.register();
         ItemRegistry.register();
         MenuTypesRegistry.register();
+        ModCreativeTabs.register();
     }
 }
